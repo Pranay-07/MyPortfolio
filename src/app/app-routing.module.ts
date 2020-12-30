@@ -5,6 +5,7 @@ import { AllProjectsComponent } from './all-projects/all-projects.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 
 const routes: Routes = [
+  { path :'' , component: AboutMeComponent},
   { path :'AboutMe' , component: AboutMeComponent},
   { path :'ContactMe' , component: ContactMeComponent},
   { path :'AllProjects' , component: AllProjectsComponent},
