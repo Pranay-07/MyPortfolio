@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent implements OnInit {
-  show=false;
+ public show=false;
   constructor() {
+    this.show=false;
   }
 
   ngOnInit(): void {
