@@ -32,3 +32,12 @@
     top:33%;
     margin-left: 10px;
 }
+.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+  transform: translateY(-1.1em) scale(.75);
+  transform: translateX(-1.1em) scale(.75);
+  height:133% ;
+  width: 133.33333%;
+}
+::ng-deep .mat-form-field {
+  font-size: 14px; 
+}
