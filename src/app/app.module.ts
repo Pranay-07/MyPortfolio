@@ -13,13 +13,21 @@ import {MatListModule} from '@angular/material/list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
+import { AngularProjectsComponent } from './angular-projects/angular-projects.component';
+import { ReactProjectsComponent } from './react-projects/react-projects.component';
+import { IotprojectsComponent } from './iotprojects/iotprojects.component';
+import { CppprojectsComponent } from './cppprojects/cppprojects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
     ContactMeComponent,
-    AllProjectsComponent
+    AllProjectsComponent,
+    AngularProjectsComponent,
+    ReactProjectsComponent,
+    IotprojectsComponent,
+    CppprojectsComponent
   ],
   imports: [
     BrowserModule,
