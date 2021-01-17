@@ -1,0 +1,108 @@
+<img style="height:30%; width:100%" src="../../assets/background.jpg">
+<div class="Title">Professional Portfolio</div>
+<div class="SmallTitle">Thanks for checking out my portfolio website!</div>
+<div class="MyIntro" style="box-shadow: 5px 5px 5px #444444;">
+    <div style="display: flex;justify-content: center;">
+        <img class="MyProfile" src="../../assets/MyImage.jpg">
+    </div>
+    <div style="display: flex;text-align: center;justify-content: center; ">
+        <div style="font-size: 200%;margin-top: 10px;">Pranay Kumar</div>
+    </div>
+    <div style="display: flex;text-align: center;justify-content: center; ">
+        <div style="font-size: 100%;margin-top: 10px;">(Software Developer)</div>
+    </div>
+    <div style="font-size: 100% ;margin-left: 20px;">Hi! I am a software developer and this is the little corner in
+        internet where you can know about me.
+        I have 1+ years of experience in full stack development with technologies like C# , angular and React
+        I look forward to learn and explore more in the field</div>
+    <div style="display: flex;text-align: center;justify-content: center; ">
+        <button (click)="toggle()" style="background-color: #1f1f1f;margin-top: 10px;" mat-button>Visit my public
+            profile</button>
+    </div>
+    <div [hidden]="!this.show">
+        <div style="display: flex;text-align: center;justify-content: center; ">
+            <button style="background-color: #1f1f1f; margin-top: 10px;" mat-button><img
+                    style="width: 20px;height:20px;border-radius: 10%;" src="../../assets/LinkedInLogo.png"><a
+                    style="color: white;" href="http://www.linkedin.com/in/pranay-kumar-1a247b147">
+                    LinkedIn</a></button>
+        </div>
+        <div style="display: flex;text-align: center;justify-content: center; ">
+            <button style="background-color: #1f1f1f;margin-top: 10px;" mat-button><img
+                    style="width: 20px;height:20px;border-radius: 10%;" src="../../assets/FacebookLogo.png"><a
+                    style="color: white;" href="https://www.facebook.com/pranay.kumar.1253"> Facebook</a></button>
+        </div>
+        <div style="display: flex;text-align: center;justify-content: center; ">
+            <button style="background-color: #1f1f1f;margin-top: 10px;" mat-button><img
+                    style="width: 20px;height:20px;border-radius: 10%;" src="../../assets/InstagramLogo.jpg"><a
+                    style="color: white;" href="https://www.instagram.com/pranay_07/"> Instagram</a></button>
+        </div>
+    </div>
+</div>
+<mat-card class="MyIntro1">
+    <div style="width: auto;margin:auto;color:white;display: flex;justify-content: center;font-size: 15px;">Technology Stack</div>
+    <div style="display:flex;margin:auto;width:180%">
+    <div style="width: 65px;">
+        <img style="width: 65px; height:65px;margin-top: 15px;padding-left: 5%;" [src]="imagesource1">
+    </div>
+    <div >
+        <img style="width: 90px; height:90px; padding-left:5px" [src]="imagesource2">
+    </div>
+    <div style="width: 65px;">
+        <img style="width: 65px; height:65px ;margin-top:15px;padding-left: 5%;" [src]="imagesource3">
+    </div>
+    <div style="width:130px;">
+        <img style="width: 90px; height:90px;padding-left:5%" [src]="imagesource4">
+    </div>
+    
+</div>
+   <a style="color: white;" href="../../assets/My Resume .pdf" download="Resume"> Download Resume</a>
+</mat-card>
+
+<div class="MyIntro" style="padding: 0px;margin-bottom: 15px;box-shadow: 5px 5px 5px #444444;">
+    <div style="background-color: #1f1f1f;padding-left: 15px;margin-bottom: 10px;">Experience</div>
+    <div style="display: flex;padding-left: 5px;">
+        <div style="display: inline-block;">
+            <div style="padding-left: 10px;font-weight: 500;font-size: 15px;">Philips Healthcare</div>
+            <div style="padding-left: 10px;">Jun(2019) - Current</div>
+            <div style="padding-left: 10px;margin-bottom: 15px;">Software Engineer</div>
+        </div>
+    </div>
+    <div style="display: flex;padding-left: 5px;">
+        <div style="display: inline-block;">
+            <div style="padding-left: 10px;font-weight: 500;font-size: 15px;">Philips Healthcare</div>
+            <div style="padding-left: 10px;">Jan(2019) -Jun(2019)</div>
+            <div style="padding-left: 10px;">Software Engineer Intern</div>
+        </div>
+    </div>
+</div>
+<div class="MyIntro" style="padding: 0px;margin-bottom: 15px; box-shadow: 5px 5px 5px #444444;">
+    <div style="background-color: #1f1f1f;padding-left: 15px;margin-bottom: 10px;">Education qualification</div>
+    <div style="display: flex;padding-left: 5px;">
+        <img style="width: 75px;height:75px;" src="../../assets/NIELogo.png">
+        <div style="display: inline-block;">
+            <div style="padding-left: 10px;">The National Institute of Engineering, Mysore (2015-2019)</div>
+            <div style="padding-left: 10px;">Electronics and Communication</div>
+            <div style="padding-left: 10px;">CGPA-8.43</div>
+        </div>
+    </div>
+    <div style="display: flex;padding-left: 5px;margin-top: 15px;margin-bottom: 15px;">
+        <img style="width: 75px;height:75px;" src="../../assets/SchoolLogo.jpg">
+        <div style="display: inline-block;">
+            <div style="padding-left: 5px;">Denobili School, Dhanbad (2013-2015)</div>
+        </div>
+    </div>
+</div>
+<div style="background-color: #333333;width: auto;height: 200px">
+    <div style="margin-top: 25px;">
+        <hr />
+    </div>
+    <pre> Address : B100 , Monarch Serenity,
+           Thanisandra Main Road,
+           Bangalore -560077,
+           Karnataka
+</pre>
+    <pre> Links :  <a style="color: white;" href="http://www.linkedin.com/in/pranay-kumar-1a247b147"><img style="width: 20px;height:20px;border-radius: 10%;" src="../../assets/LinkedInLogo.png"></a> <a style="color: white;" href="https://www.facebook.com/pranay.kumar.1253"><img style="width: 20px;height:20px;border-radius: 10%;" src="../../assets/FacebookLogo.png"></a> <a style="color: white;" href="https://www.instagram.com/pranay_07/"><img style="width: 20px;height:20px;border-radius: 10%;" src="../../assets/InstagramLogo.jpg"></a>
+ 
+  
+</pre>
+</div>
